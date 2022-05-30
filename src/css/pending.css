@@ -1,0 +1,46 @@
+.box{
+    position: absolute;
+    left: 180px;
+    top: 230px;
+    width: 85vw;
+    height: 290px;
+    /* border: 1px solid black; */
+    background-color:white;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.data{
+
+    position: absolute;
+    left: 180px;
+    top: 230px;
+    width: 85vw;
+    height: 350px;
+    /* border: 1px solid black; */
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.5);
+   display: flex;
+   flex-direction: row;
+
+   
+
+
+}
+.data li{
+    list-style: none;
+}
+
+.NavlinkList{
+    position: relative;
+    top: 30px;
+    left:20px ;
+
+    text-decoration: none;
+    color: black;
+    margin:0px 5px;
+    border: 1px solid black;
+    padding: 5px 20px;
+
+   
+    
+}

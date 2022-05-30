@@ -1,0 +1,26 @@
+.oder-list{
+    position: absolute;
+    top:180px;
+    left:220px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+  
+  }
+  
+  
+  .item{
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid black; */
+    padding: 5px;
+    margin: 0px 5px;
+  }
+  
+  .item:hover{
+    color:blue;
+    text-underline-position: below;
+    text-decoration-color: blue;
+    
+  }

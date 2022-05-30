@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    z-index: 100; 
+    box-shadow: 10px 10px 200px 10px rgba(0,0,0,0.6);
+}
+
+.logo{
+    position: absolute;
+    left: 30px;
+    width: 50px;
+    height: 100%;
+    object-fit: cover;
+}
+.float-right{
+  position: absolute;
+  right: 20px;
+  
+}
+.avtar{
+   width: 30px;
+   height: 100%;
+   object-fit: cover;
+   margin-left: 20px;
+}
+
+.fa-solid{
+    margin-left: 20px;
+    /* z-index: 200; */
+}
+
+.fa-list{
+    position: relative;
+    left: 200px;
+}
